@@ -14,7 +14,7 @@ int print_last_digit(int l)
 		l = -l;
 	}
 	k = l % 10;
-	if (a < 0)
+	if (k < 0)
 	{
 		k = -k;
 	}
