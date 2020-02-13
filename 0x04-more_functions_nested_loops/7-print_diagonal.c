@@ -4,6 +4,7 @@
  * @n: is the parameter.
  * Return: Always 0.
  */
+
 void print_diagonal(int n)
 {
 	int j;

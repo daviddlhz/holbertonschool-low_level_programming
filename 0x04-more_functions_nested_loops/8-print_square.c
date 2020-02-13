@@ -4,25 +4,24 @@
  * @size: is the parameter.
  * Return: Always 0.
  */
-void print_square(int size){
+void print_square(int size)
+{
+int j;
+int h;
 
-	int j;
-
-        int h;
-
-        if (size > 0)
-        {
-                for (j = 0; j < size; j++)
-                {
-                        for (h = 0; h < size; h++)
-                        {
-                                putchar('#');
-                        }
-                        putchar('\n');
-                }
-        }
-        else
-        {
-                putchar ('\n');
-        }
+if (size > 0)
+{
+for (j = 0; j < size; j++)
+{
+for (h = 0; h < size; h++)
+{
+putchar('#');
+}
+putchar('\n');
+}
+}
+else
+{
+putchar ('\n');
+}
 }
