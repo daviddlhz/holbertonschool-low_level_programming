@@ -1,27 +1,29 @@
 #include "holberton.h"
 /**
- * print_square - check the code for Holberton School students.
- * @size: is the parameter.
+ * print_square - function.
+ * @size: is parameter
  * Return: Always 0.
  */
 void print_square(int size)
 {
-int j;
-int h;
+	int j;
 
-if (size > 0)
-{
-for (j = 0; j < size; j++)
-{
-for (h = 0; h < size; h++)
-{
-putchar('#');
-}
-putchar('\n');
-}
-}
-else
-{
-putchar ('\n');
-}
+	int h;
+
+	if (size > 0)
+	{
+		for (j = 0; j < size; j++)
+		{
+			for (h = 0; h < size; h++)
+			{
+				_putchar('#');
+			}
+
+			_putchar('\n');
+		}
+	}
+	else
+	{
+		_putchar ('\n');
+	}
 }
