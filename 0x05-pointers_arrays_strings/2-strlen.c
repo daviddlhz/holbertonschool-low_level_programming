@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * 2-strlen - check the code for Holberton School students.
+ * _strlen - check the code for Holberton School students.
  * @s: is the parameter.
  * Return: Always 0.
  */
