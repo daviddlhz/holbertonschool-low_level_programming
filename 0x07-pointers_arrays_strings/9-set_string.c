@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _set_string - check the code for Holberton School students.
+ * set_string - check the code for Holberton School students.
  * @s: is the parameter.
  * @to: is other parameter.
  * Return: Always 0.
