@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _factorial - This function return the factorial.
+ * factorial - This function return the factorial.
  * @n: is a number that find the factorial.
  * Return: Return the factorial.
  */
