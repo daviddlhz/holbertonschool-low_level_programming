@@ -7,8 +7,6 @@ int num(int i, int n);
  * Return: recursion.
  *
  */
-
-
 int _sqrt_recursion(int n)
 {
 	int i;
@@ -40,7 +38,7 @@ int num(int i, int n)
 
 	if (i * i < n)
 	{
-		return (funcion(i + 1, n));
+		return (num(i + 1, n));
 	}
 
 	if (i * i == n)
