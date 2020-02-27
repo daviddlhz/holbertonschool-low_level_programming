@@ -1,13 +1,16 @@
 #include "holberton.h"
 
 
+int is_palindrome(char *s);
+int compare(int i, int size, char *s, int add);
+int _strlen_recursion(char *s);
+
 
 /**
  * is_palindrome -  sss
  * @s: string
  * Return: return something
  */
-
 int is_palindrome(char *s)
 {
 	int i, size, add;
@@ -28,7 +31,6 @@ int is_palindrome(char *s)
  * @add: addition depending if n is odd or even
  * Return: return value
  */
-
 int compare(int i, int size, char *s, int add)
 {
 
@@ -51,7 +53,6 @@ int compare(int i, int size, char *s, int add)
  * @s: string
  * Return: return legth
  */
-
 int _strlen_recursion(char *s)
 {
 
