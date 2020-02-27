@@ -7,31 +7,45 @@
  *
  */
 
+
 int _sqrt_recursion(int n)
 {
+	int i;
+
+	i = 0;
+
 	if (n < 0)
 	{
 		return (-1);
 	}
-	return (countNum(n, 1));
+
+	return (num(i, n));
 }
 
 /**
- * countNum - count number a*a.
- * @n: int type Integer
- * @a: int type Integer
- * Return: recursion.
+ *num - function to recursion
+ *@i:iterator
+ *@n: number of sqrt
+ *Return: return recursive character
  */
 
-int countNum(int n, int a)
+int num(int i, int n)
 {
-	if (a * a > n)
+
+	if (n == 0 || n == 1)
 	{
-		return (-1);
+		return (n);
 	}
-	if (a * a == n)
+
+	if (i * i < n)
 	{
-		return (a);
+		return (funcion(i + 1, n));
 	}
-	return (countNum(n, a + 1));
+
+	if (i * i == n)
+	{
+		return (i);
+	}
+
+	return (-1);
 }
