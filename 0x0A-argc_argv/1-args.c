@@ -5,8 +5,8 @@
  * @argc: return of values of program.
  * Return: 0 Always.
  */
-int main(__attribute__((unused)) int argc, char *argv[])
+int main(int argc, __attribute__((unused)) char *argv[])
 {
-	printf("%i \n", argc);
+	printf("%i \n", (argc - 1));
 	return (0);
 }
