@@ -1,9 +1,12 @@
 #include "holberton.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 /**
- * main - this program multiply two numbers.
- * @argv: return of size of argv.
- * @argc: return of values of program.
- * Return: 0 Always.
+ * main - this program multiply two numbers
+ * @argv: return of size of argv
+ * @argc: return of values of program
+ * Return: 0 Always
  */
 int main(int argc, char *argv[])
 {
@@ -17,16 +20,16 @@ int main(int argc, char *argv[])
 
 	if (argc == 3)
 	{
-		a = *(*(argv + 1)) + 48;
-		b = *(*(argv + 2)) + 48;
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
 		c = a * b;
-		printf("%d \n", c);
+		printf("%d\n", c);
 		return (0);
 
 	}
 	else
 	{
-		printf("Error \n");
+		printf("Error\n");
 		return (1);
 	}
 
