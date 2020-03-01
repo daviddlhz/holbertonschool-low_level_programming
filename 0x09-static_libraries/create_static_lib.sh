@@ -1,4 +1,3 @@
 #!/bin/bash
-gcc -c *.c
-ar -rc liball.a *.o
-ar -t libholberton.a
+gcc -Wall -Werror -Wextra -c *.c
+ar rc liball.a *.o
