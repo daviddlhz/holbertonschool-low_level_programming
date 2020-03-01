@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include <stdio.h>
 /**
  * main - this function prints the name program
  * @argv: return of size of argv.
