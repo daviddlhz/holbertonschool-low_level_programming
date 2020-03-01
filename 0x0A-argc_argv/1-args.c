@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
  * main - this function prints the lenght of parameters of the programan.
  * @argv: return of size of argv.
