@@ -1,5 +1,5 @@
 #include "holberton.h"
-
+#include <stdlib.h>
 /**
  *malloc_checked - malloc chech
  *@b: size of int;
