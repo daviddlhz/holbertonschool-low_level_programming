@@ -1,5 +1,4 @@
-#include <stidio.h>
-#include <stdlib.h>
+#include "holberton.h"
 
 /**
  * _memcpy - copies n bytes form the memory area src
