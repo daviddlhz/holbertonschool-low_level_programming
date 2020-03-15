@@ -9,7 +9,7 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
-	unsigned int count;
+	unsigned int cont;
 
 	va_list valist;
 
@@ -18,7 +18,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		cont = va_arg(valist, int);
-		printf("%i", count);
+		printf("%d", cont);
 
 		if (i < n - 1 && separator != NULL)
 		{
