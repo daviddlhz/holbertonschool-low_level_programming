@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * create_file - function that appends text at the end of a file.
+ * append_text_to_file - function that appends text at the end of a file.
  * @filename: variable that contains the filename
  * @text_content: variable that contains the content of text
  * Return: 1 on success, -1
