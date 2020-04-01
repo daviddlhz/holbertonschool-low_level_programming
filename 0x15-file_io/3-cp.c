@@ -34,9 +34,7 @@ int main(int ac, char **av)
 			check_out = write(fd_to, buff, check_in);
 			if (check_out == -1)
 				dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]), exit(99);
-			
 		}
-		
 	}
 	check_out = close(fd);
 	if (check_out == -1)
@@ -45,5 +43,4 @@ int main(int ac, char **av)
 	if (check_out == -1)
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_to), exit(100);
 	return (0);
-	
 }
